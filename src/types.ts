@@ -18,3 +18,9 @@ export type FoundRefT = {
   location: Location;
   matchText: string;
 };
+
+export type PathRuleT = {
+  rule: string;
+  comment: string;
+  folder: string;
+};

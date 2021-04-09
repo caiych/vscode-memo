@@ -143,6 +143,12 @@
           "scope": "resource",
           "description": "Whether to enhance built-in VSCode Markdown preview with links highlight, navigation and resource embedding. Reload required!",
           "type": "boolean"
+        },
+        "memo.files.defaultPaths": {
+          "default": [],
+          "scope": "resource",
+          "description": "Rules to create the files.",
+          "type": "array"
         }
       }
     },
